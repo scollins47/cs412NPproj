@@ -1,7 +1,7 @@
 # cs412NPproj
 
 ## Max Clique Problem Presentation -- Sammy Collins
-This NP complete problem of finding the max clique in a given graph, essentially means to find the group of nodes, wherein each node of that group is directly connected to every other node in that group. Some applications of this problem include Social Network Analysis, that is, analysis of different groups of friends that could possibly all be target marketed to, DNA analysis, discovering terrorist groups, and more.
+This NP complete problem of finding the max clique in a given graph, essentially means to find the group of nodes, wherein each node of that group is directly connected to every other node in that group. Some applications of this problem include Social Network Analysis, that is, analysis of different groups of friends that could possibly all be target marketed to, DNA analysis, discovering terrorist groups, and more. This problem is important in the field of marketing, computer science, biology, math, and so much more. Cutting this exponential runtime algorithm down can provide advances in DNA sequencing and analysation, target marketing for big coorperations, and an increased efficiency in finding terrorist groups or undiscovered unofficial organizations.
 ## Exact Solution - Matt Andrews
 ## Approximation - Hafet Abdulle
 ## Review - Kory Erdmann
