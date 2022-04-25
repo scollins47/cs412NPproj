@@ -1,6 +1,7 @@
 # cs412NPproj
 
 ## Max Clique Problem Presentation -- Sammy Collins
+Some applications of this problem include Social Network Analysis, that is, analysis of different groups of friends that could possibly all be target marketed to, DNA analysis, discovering terrorist groups, and more.
 ## Exact Solution - Matt Andrews
 ## Approximation - Hafet Abdulle
 ## Review - Kory Erdmann
