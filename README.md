@@ -10,7 +10,7 @@ Input- Undirected graph, represented as an adjacency list. Vertexes & Edges
 
 N verts  
 Vertex vertex ( where the two are connected)\
-example:
+example:\
 7\
 A B\
 B C\
