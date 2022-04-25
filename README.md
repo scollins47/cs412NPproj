@@ -11,13 +11,13 @@ N verts
 Vertex vertex ( where the two are connected)
 example:
 
-A B
-B C
-A C
-D B
-D A
-D C
-E A
+A B\
+B C\
+A C\
+D B\
+D A\
+D C\
+E A\
 
 The solution is the subset {A, B, C, D}
 As A is connected to B,C,D 
