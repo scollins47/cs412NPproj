@@ -1,3 +1,3 @@
 # cs412NPproj
 
-## Problem Presentation
+## Max Clique Problem Presentation
