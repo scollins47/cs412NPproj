@@ -11,21 +11,19 @@ Input- Undirected graph, represented as an adjacency list. Vertexes & Edges
 N verts  
 Vertex vertex ( where the two are connected)\
 example:\
-7\
-A B\
-B C\
-A C\
-D B\
-D A\
-D C\
-E A  
+5
+0 1 2 3
+1 0 2 3
+2 0 1 3
+3 0 1 2
+4 0
 
-The solution is the subset {A, B, C, D}\
-As A is connected to B,C,D \
-B is connected to A,C,D\
-C is connected to A,B,D\
-And D is connected to A,B,C\
+The solution is the subset {0, 1, 2, 3}\
+As 0 is connected to 1,2,3 \
+1 is connected to 0,2,3\
+2 is connected to 0,1,3\
+And 3 is connected to 0,1,2\
 
-E is not included in the answer since it is connected to A it is only connected to A and none of the other vertices.
+4 is not included in the answer since it is only connected to 0 and none of the other vertices.
 
 
