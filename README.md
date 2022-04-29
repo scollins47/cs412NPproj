@@ -9,7 +9,7 @@ This NP complete problem of finding the max clique in a given graph, essentially
 Input- Undirected graph, represented as an adjacency list. Vertexes & Edges
 
 N verts  
-Vertex vertex ( where the two are connected)\
+[Start vertex] [connected vertex] ...
 example:\
 5
 0 1 2 3
