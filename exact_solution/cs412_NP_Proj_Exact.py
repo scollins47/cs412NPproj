@@ -6,7 +6,8 @@ Matt Andrews
 def max_clique(graph):
     max_count = 0
     out_clique = set()
-    
+
+    # Start with a subset containing a single vertex
     for vertex in graph:
         running_count = 0
         possibles = list(graph.keys())
@@ -14,6 +15,8 @@ def max_clique(graph):
         possibles.remove(vertex)
         clique = [vertex]
         running_count += 1
+        # Check whether adding each other vertex is valid
+        # (Candidate vertex has edges with all vertices already in the subset)
         for possible in possibles:
             # print("TRYING {}".format(possible))
             add_vert = True
@@ -25,7 +28,9 @@ def max_clique(graph):
             if add_vert:
                 clique.append(possible)
                 running_count += 1
-                    
+
+        # If the current subset is larger than the current max,
+        # update max_count and out_clique
         if running_count > max_count:
             # print("NEW MAX: {}".format(clique))
             max_count = running_count
