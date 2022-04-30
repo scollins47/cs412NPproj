@@ -11,12 +11,12 @@ Input- Undirected graph, represented as an adjacency list. Vertexes & Edges
 N verts  
 [Start vertex] [connected vertex] ...
 example:\
-5
-0 1 2 3
-1 0 2 3
-2 0 1 3
-3 0 1 2
-4 0
+5\
+0 1 2 3\
+1 0 2 3\
+2 0 1 3\
+3 0 1 2\
+4 0\
 
 The solution is the subset {0, 1, 2, 3}\
 As 0 is connected to 1,2,3 \
