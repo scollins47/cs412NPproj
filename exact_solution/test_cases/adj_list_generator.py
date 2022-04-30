@@ -1,7 +1,8 @@
 """
 Matt Andrews
-random_graph taken from:
+random_graph function from:
 https://stackoverflow.com/questions/60161376/easiest-way-to-generate-an-undirected-graph-s-adjacency-list
+with slight alterations
 """
 from random import random
 from itertools import product, combinations
@@ -9,8 +10,12 @@ from itertools import product, combinations
 
 def random_graph(n, p, *, directed=False):
     nodes = range(n)
+    # Base list with specified number of nodes
     adj_list = {i: [] for i in nodes}
+    # Set of all 2-node subsets
     possible_edges = product(nodes, repeat=2) if directed else combinations(nodes, 2)
+    # Select edge based on probability p
+    # Add the corresponding edge for undirected graphs
     for u, v in possible_edges:
         if random() < p:
             adj_list[u].append(v)
