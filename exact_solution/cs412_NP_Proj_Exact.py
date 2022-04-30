@@ -5,7 +5,7 @@ Matt Andrews
 
 def max_clique(graph):
     max_count = 0
-    out_clique = set()
+    out_clique = []
 
     # Start with a subset containing a single vertex
     for vertex in graph:
