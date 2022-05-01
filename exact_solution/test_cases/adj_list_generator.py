@@ -2,7 +2,7 @@
 Matt Andrews
 random_graph function from:
 https://stackoverflow.com/questions/60161376/easiest-way-to-generate-an-undirected-graph-s-adjacency-list
-with slight alterations
+with slight alterations and comments
 """
 from random import random
 from itertools import product, combinations
