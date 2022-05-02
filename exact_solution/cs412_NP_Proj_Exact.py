@@ -11,20 +11,17 @@ def max_clique(graph):
     for vertex in graph:
         running_count = 0
         possibles = list(graph.keys())
-        # print(possibles)
         possibles.remove(vertex)
         clique = [vertex]
         running_count += 1
         # Check whether adding each other vertex is valid
         # (Candidate vertex has edges with all vertices already in the subset)
         for possible in possibles:
-            # print("TRYING {}".format(possible))
             add_vert = True
             for included in clique:
                 if graph[included] is None or possible not in graph[included]:
                     add_vert = False
                     break
-            # print("ADD? {}".format(add_vert))
             if add_vert:
                 clique.append(possible)
                 running_count += 1
@@ -32,7 +29,6 @@ def max_clique(graph):
         # If the current subset is larger than the current max,
         # update max_count and out_clique
         if running_count > max_count:
-            # print("NEW MAX: {}".format(clique))
             max_count = running_count
             out_clique = clique
             
